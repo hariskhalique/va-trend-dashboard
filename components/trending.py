@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from streamlit_app.data.mock_data import mock_trending_products
+from data.mock_data import mock_trending_products
 
 
 def render_trending_tab():

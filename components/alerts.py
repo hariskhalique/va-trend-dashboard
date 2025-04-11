@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-from streamlit_app.data.mock_data import mock_alerts
+from data.mock_data import mock_alerts
 
 
 def render_alerts_tab():

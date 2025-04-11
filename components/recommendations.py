@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
-from streamlit_app.data.mock_data import mock_recommendations, mock_product_details
+from data.mock_data import mock_recommendations, mock_product_details
 
 
 def render_recommendations_tab():

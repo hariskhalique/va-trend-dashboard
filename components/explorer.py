@@ -1,10 +1,8 @@
-# 📁 streamlit_app/components/explorer.py
-
 import streamlit as st
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-from streamlit_app.data.mock_data import mock_product_details
+from data.mock_data import mock_product_details
 
 
 def render_explorer_tab():
